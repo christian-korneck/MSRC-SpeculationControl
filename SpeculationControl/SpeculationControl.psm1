@@ -119,7 +119,7 @@
         $kvaShadowEnabled = $false
         $kvaShadowPcidEnabled = $false
 
-        $cpu = Get-WmiObject Win32_Processor
+        $cpu = Get-WmiObject Win32_Processor | select -first 1
 
         if ($cpu.Manufacturer -eq "AuthenticAMD") {
             $kvaShadowRequired = $false
