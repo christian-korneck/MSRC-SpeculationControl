@@ -5,7 +5,7 @@ MSRC PowerShell SpeculationControl module
 
 Fork of the Microsoft Security Response Center (MSRC) provided PowerShell module `SpeculationControl` from the Powershell Gallery https://www.powershellgallery.com/packages/SpeculationControl with minor changes that I needed to run it in my environment.
 
-This module provides the ability to query the CPU speculation control settings for the system (displays if `spectre`, `ghost` mitigations are active)
+This module provides the ability to query the CPU speculation control settings for the system (displays if `spectre`, `meltdown` mitigations are active)
 
 ## wrapper scripts
 For simple execution of the actual script, I've added a batch wrapper script:
